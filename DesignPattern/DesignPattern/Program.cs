@@ -63,6 +63,23 @@ namespace DesignPattern
 
             #endregion
 
+            #region Factory
+
+            /*
+            Creational.Singleton.Calci obj1 = Creational.Singleton.Calci.getInstance();
+            Creational.Singleton.Calci obj2 = Creational.Singleton.Calci.getInstance();
+
+            obj1.sayHello();
+            obj2.sayBye();
+
+            if (obj1 == obj2)
+            {
+                Console.WriteLine("Both obj are same");
+                
+            }
+             */
+            #endregion
+
             Console.ReadKey();
         }
     }
