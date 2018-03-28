@@ -63,7 +63,7 @@ namespace DesignPattern
 
             #endregion
 
-            #region Factory
+            #region Singleton
 
             /*
             Creational.Singleton.Calci obj1 = Creational.Singleton.Calci.getInstance();
@@ -78,6 +78,7 @@ namespace DesignPattern
                 
             }
              */
+             
             #endregion
 
             Console.ReadKey();

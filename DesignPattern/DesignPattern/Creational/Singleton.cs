@@ -9,7 +9,7 @@ namespace DesignPattern.Creational.Singleton
     class Calci
     {
         private static Calci _calci;
-        protected Calci()
+        private Calci()
         {
 
         }
