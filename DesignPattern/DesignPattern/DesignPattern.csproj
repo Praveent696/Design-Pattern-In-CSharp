@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="Creational\Abstract.cs" />
     <Compile Include="Creational\Builder.cs" />
+    <Compile Include="Creational\Factory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

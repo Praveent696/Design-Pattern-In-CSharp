@@ -43,6 +43,26 @@ namespace DesignPattern
             */
             #endregion
 
+            #region Factory
+            /*
+            Creational.Factory.Phone[] ph = new Creational.Factory.Phone[2];
+            ph[0] = new Creational.Factory.Basicphone();
+            ph[1] = new Creational.Factory.Smartphone();
+
+            foreach(Creational.Factory.Phone phone in ph)
+            {
+                Console.WriteLine();
+                Console.WriteLine("Phone type => " + phone.GetType().Name);
+                Console.WriteLine("Features:\n");
+                foreach (Creational.Factory.Feature f in phone.Features) {
+                    Console.WriteLine(f.GetType().Name);
+
+                }
+            }
+            */
+
+            #endregion
+
             Console.ReadKey();
         }
     }
